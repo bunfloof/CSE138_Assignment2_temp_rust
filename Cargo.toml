@@ -1,5 +1,5 @@
 [package]
-name = "CSE138_Assignment2_temp_rust"
+name = "pa2"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,5 +9,6 @@ edition = "2021"
 actix-web = "4.4.0"
 env_logger = "0.10.0"
 log = "0.4.20"
+reqwest = { version = "0.11.22", features = ["json"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"

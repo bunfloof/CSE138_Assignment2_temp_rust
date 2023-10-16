@@ -5,7 +5,7 @@ Temporary. Do not submit.
 A basic HTTP web service with an in-memory key-value store that supports CRUD operations: adding, updating, and deleting key-value pairs, and retrieving values, which consists of a main instance handling requests and forwarding instances that relay requests to the main instance, with endpoints `/kvs/<key>` for GET and DELETE, and specific JSON-based request and response formats for PUT, enforced by constraints like as key length and request body structures.
 
 ## Team Contributions
-- [Joey Ma](https://people.ucsc.edu/~jma363/) for completing part 1
+- [Joey Ma](https://people.ucsc.edu/~jma363/) for completing part 1 and 2
 
 ## Acknowledgments
 
@@ -17,5 +17,8 @@ I acknowledge that I reside on the land of the Amah Mutsun Tribal Band of the Oh
 
 - [Actix](https://actix.rs/) Web framework documentation
 - [Land Acknowledgment](https://www.ucsc.edu/land-acknowledgment/) Statement at UC Santa Cruz
+- [Reqwest](https://docs.rs/reqwest) Crate reqwest documentation
 - [rust](https://hub.docker.com/_/rust) Docker image example Dockerfile
 - [Serde JSON](https://docs.rs/serde_json) Crate serde_json documentation
+- [Updating apt breaks my docker build...](https://stackoverflow.com/questions/62668101/updating-apt-breaks-my-docker-build-on-ubuntu-18-04) Stack Overflow post
+- [error while loading shared libraries...](https://stackoverflow.com/questions/75433145/error-while-loading-shared-libraries-libssl-so-1-1-cannot-open-shared-object-f) Stack Overflow post
